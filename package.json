@@ -1,0 +1,33 @@
+{
+  "name": "submission",
+  "version": "1.0.0",
+  "description": "submission akhir course backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "start-dev": "nodemon src/server.js",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtridryn/Submission-Backend---DBS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtridryn/Submission-Backend---DBS/issues"
+  },
+  "homepage": "https://github.com/mtridryn/Submission-Backend---DBS#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "eslint": "^9.27.0",
+    "eslint-config-dicodingacademy": "^0.9.4",
+    "globals": "^16.2.0",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.4.0",
+    "nanoid": "^3.3.11"
+  }
+}
